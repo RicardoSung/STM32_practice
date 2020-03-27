@@ -1,0 +1,6 @@
+文件夹f103_single_pole为工程源码，
+spwm_generate.py为数组生成程序，
+pptx为视频中出现的ppt，
+半桥交流示例.ms14为简单的Multisim仿真程序（通过PWM转为交流电），
+EG8010.pdf为一种可以产生spwm用于逆变器的芯片用以提供设计参考，
+逆变器原理简介视频为Mec_Mond的BV1vb41147eS
