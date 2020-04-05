@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"cc_timer_interrupt\startup_stm32f103xb.o"
+"cc_timer_interrupt\main.o"
+"cc_timer_interrupt\gpio.o"
+"cc_timer_interrupt\tim.o"
+"cc_timer_interrupt\stm32f1xx_it.o"
+"cc_timer_interrupt\stm32f1xx_hal_msp.o"
+"cc_timer_interrupt\stm32f1xx_hal_gpio_ex.o"
+"cc_timer_interrupt\stm32f1xx_hal_tim.o"
+"cc_timer_interrupt\stm32f1xx_hal_tim_ex.o"
+"cc_timer_interrupt\stm32f1xx_hal.o"
+"cc_timer_interrupt\stm32f1xx_hal_rcc.o"
+"cc_timer_interrupt\stm32f1xx_hal_rcc_ex.o"
+"cc_timer_interrupt\stm32f1xx_hal_gpio.o"
+"cc_timer_interrupt\stm32f1xx_hal_dma.o"
+"cc_timer_interrupt\stm32f1xx_hal_cortex.o"
+"cc_timer_interrupt\stm32f1xx_hal_pwr.o"
+"cc_timer_interrupt\stm32f1xx_hal_flash.o"
+"cc_timer_interrupt\stm32f1xx_hal_flash_ex.o"
+"cc_timer_interrupt\stm32f1xx_hal_exti.o"
+"cc_timer_interrupt\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "CC_timer_interrupt\CC_timer_interrupt.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CC_timer_interrupt.map" -o CC_timer_interrupt\CC_timer_interrupt.axf
